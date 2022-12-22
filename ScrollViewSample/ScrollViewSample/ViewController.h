@@ -6,8 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "GViewController.h"
 @interface ViewController : UIViewController<UIScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UIView *mScroll;
+- (IBSegueAction GViewController *)nav:(NSCoder *)coder;
+
 
 
 @end

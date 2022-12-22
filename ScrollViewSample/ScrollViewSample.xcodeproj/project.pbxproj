@@ -14,6 +14,8 @@
 		B8A823792952FFE700E4A8F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A823782952FFE700E4A8F5 /* Assets.xcassets */; };
 		B8A8237C2952FFE700E4A8F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A8237A2952FFE700E4A8F5 /* LaunchScreen.storyboard */; };
 		B8A8237F2952FFE700E4A8F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A8237E2952FFE700E4A8F5 /* main.m */; };
+		B8AC46392954166E00A04E91 /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AC46382954166E00A04E91 /* GViewController.m */; };
+		B8AC463C29541C8700A04E91 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AC463B29541C8700A04E91 /* ImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		B8A8237B2952FFE700E4A8F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8A8237D2952FFE700E4A8F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8A8237E2952FFE700E4A8F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8AC46372954166E00A04E91 /* GViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GViewController.h; sourceTree = "<group>"; };
+		B8AC46382954166E00A04E91 /* GViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
+		B8AC463A29541C8700A04E91 /* ImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		B8AC463B29541C8700A04E91 /* ImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				B8A823702952FFE400E4A8F5 /* SceneDelegate.m */,
 				B8A823722952FFE400E4A8F5 /* ViewController.h */,
 				B8A823732952FFE400E4A8F5 /* ViewController.m */,
+				B8AC46372954166E00A04E91 /* GViewController.h */,
+				B8AC46382954166E00A04E91 /* GViewController.m */,
+				B8AC463A29541C8700A04E91 /* ImageView.h */,
+				B8AC463B29541C8700A04E91 /* ImageView.m */,
 				B8A823752952FFE400E4A8F5 /* Main.storyboard */,
 				B8A823782952FFE700E4A8F5 /* Assets.xcassets */,
 				B8A8237A2952FFE700E4A8F5 /* LaunchScreen.storyboard */,
@@ -148,7 +158,9 @@
 			files = (
 				B8A823742952FFE400E4A8F5 /* ViewController.m in Sources */,
 				B8A8236E2952FFE400E4A8F5 /* AppDelegate.m in Sources */,
+				B8AC46392954166E00A04E91 /* GViewController.m in Sources */,
 				B8A8237F2952FFE700E4A8F5 /* main.m in Sources */,
+				B8AC463C29541C8700A04E91 /* ImageView.m in Sources */,
 				B8A823712952FFE400E4A8F5 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
